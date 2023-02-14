@@ -1,5 +1,6 @@
 import React from "react"
 import { Message } from "./pages/Message"
+import { Buttons } from "./pages/Buttons"
 import './App.css'
 
 function App() {
@@ -7,7 +8,9 @@ function App() {
 
   return (
     <div>
+
       <Message />
+      <Buttons />
     </div>
   )
 }
